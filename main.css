@@ -1,0 +1,73 @@
+/*!
+Este CSS foi escrito as 3h da manhã
+Portanto, não me responsabilizo por alguma coisa tosca
+Se falar mal do código desse site na aula leva -2 pontos :P
+ */
+body {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	border-top: 10px solid #4F2958;
+}
+
+a, a:hover {color: #673773}
+
+.nav .active a, 
+.nav .active a:hover {
+	background-color: #4F2958;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .165);
+}
+.sidebar-nav .alert {
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .165);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .165);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: .5;
+	-webkit-transition: opacity linear .2s;
+	-moz-transition: opacity linear .2s;
+	-o-transition: opacity linear .2s;
+	-ms-transition: opacity linear .2s;
+	transition: opacity linear .2s;
+}
+.sidebar-nav .alert:hover {
+	opacity: 1
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: 200;
+}
+h1, h2, h3, h4 {color: #66B6AB}
+
+.fixed {
+	position: fixed;
+	top: 0;
+}
+
+section {
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+#aulas {margin-top: 0;}
+.nav i {vertical-align: middle;}
+.alert ul li {margin: 8px 0;}
+.alert i {vertical-align: bottom;}
+
+dd {margin-bottom: 15px;}
+.accordion-heading h3 {margin: 0; line-height: 110%}
+.accordion-inner h3 {margin-top: 0}
+
+.page-header small {
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+@media (max-width: 480px) {
+	.fixed {
+		position: static;
+		top: auto;
+	}
+}
